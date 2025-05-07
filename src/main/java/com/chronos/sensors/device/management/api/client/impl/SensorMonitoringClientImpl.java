@@ -2,15 +2,12 @@ package com.chronos.sensors.device.management.api.client.impl;
 
 import com.chronos.sensors.device.management.api.client.RestClientFactory;
 import com.chronos.sensors.device.management.api.client.SensorMonitoringClient;
-import com.chronos.sensors.device.management.api.client.SensorMonitoringClientBadGatewayException;
 import com.chronos.sensors.device.management.api.controller.responses.SensorMonitoringResponse;
-import org.springframework.http.HttpStatusCode;
-import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestClient;
 
 import java.util.UUID;
 
-@Component
+//@Component
 public class SensorMonitoringClientImpl implements SensorMonitoringClient {
 
     private final RestClient restClient;
